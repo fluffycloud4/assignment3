@@ -67,5 +67,14 @@ h2 {
   
         color: darkorchid;        
     } 
+} 
+
+
+
+.containers {
+    
+    
+    display: flex;
+    flex-direction: column;
 }
         
