@@ -22,7 +22,8 @@ h2 {
 
     padding: 10px 10px 10px 10px;
     margin: 0 auto 0 auto;
-    width: 80%;
+    width: 80%; 
+
 }
 
 .differentfont {
@@ -63,30 +64,82 @@ h2 {
 
 
 @media screen and (max-width: 30rem) {
-    h1 { 
+    h1,
+    header,
+    main,
+    footer { 
   
-        color: darkorchid;        
+        color: darkorchid;
+        flex-direction: column;
     } 
 } 
 
 
 
-.containers {
+.dcontainers {
     
     
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    justify-content:space-around; 
+    align-items: center;
+
 } 
 
 .navigation
 {
     
     display: flex; 
+    flex-direction: column;
+    align-items: center;
 justify-content:center;
 
 } 
 
 a:hover {
-    color: white
+    color:hotpink;
 }
-        
+       
+
+ul {
+    
+    list-style-type: none;
+} 
+
+.opening {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+} 
+
+
+.stylestyle {
+    
+    display: flex;
+} 
+
+.backgroundcolorc {
+    
+   background-color: white;
+}  
+
+
+footer{
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center
+} 
+
+
+.recipeinfo {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
